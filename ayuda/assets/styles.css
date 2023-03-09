@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: inline-block;
+    padding: 2em 4em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.session {
+    border-left: 1px solid lightgray;
+}
+
+.session a {
+    color: lightgray;
+}
+
+.nav a:hover {
+    color: seagreen;
+}
+
+.nav {
+    position: absolute;
+    right: 4em;
+}
+
+main {
+    margin: auto;
+    padding-top: 2em;
+    width: 50%;
+}
+
+.asist {
+    color: gray;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.inicia {
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    color: gray;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.inicia a {
+    color: white;
+    font-weight: 800;
+}
+
+#search {
+    width: 100%;
+    height: 4em;
+}
+
+.ayuda div {
+    width: 30%;
+    display: inline-block;
+    margin: 0.5em;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.ayuda a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+
+}
+.ayuda h2{
+    width: 70%;
+    display: inline-block;
+}
+
+.pago {
+    background-color: magenta;
+}
+
+.plan {
+    background-color: crimson;
+}
+
+.app {
+    background-color: darkorange;
+}
+
+.dispositivo {
+    background-color: seagreen;
+}
+
+.seguridad {
+    background-color: gray;
+}
+
+.cuenta {
+    background-color: cadetblue;
+}
+
+.ayuda img {
+    width: 4em;
+    rotate: 45deg;
+    display: inline-block;
+    position: absolute;
+}
+.rapida {
+    color: white;
+    background-color: rgba(61, 61, 61, 0.37);
+}
+.rapida a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 3em;
+    padding: 1em;
+}

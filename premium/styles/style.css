@@ -1,0 +1,381 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+    color: white;
+    margin-right: 1%;
+    float: right;
+}
+
+.dropdown img {
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: auto;
+    font-size: medium;
+    font-weight: 600;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    text-align: left;
+    background-color: black;
+    height: 100vh;
+}
+
+.dropdown:hover .nav {
+    display: block;
+
+}
+
+.nav li {
+    float: right;
+
+}
+
+.nav li a {
+    display: block;
+    text-align: left;
+
+}
+
+.session a {
+    color: darkgray;
+}
+
+.session li {
+    list-style-type: none;
+
+}
+
+.nav a:hover {
+    color: rgb(62, 160, 100);
+}
+
+h2 {
+    font-size: 1.7em;
+    font-weight: 800;
+}
+
+.condicion {
+    font-size: 0.7em;
+}
+
+.condicion a {
+    color: white;
+}
+
+.gratis {
+    height: 60%;
+    width: 100%;
+    background-color: rgb(39, 105, 192);
+    color: white;
+    padding-left: 1em;
+    padding-top: 2em;
+    overflow-x: scroll;
+    line-height: 4em;
+
+}
+
+.cancela {
+    font-weight: 600;
+}
+
+button {
+    width: 90%;
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    transition-duration: o.4s;
+
+}
+
+button:hover {
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+.empezar {
+    background-color: rgb(34, 31, 31);
+    border-color: rgb(34, 31, 31);
+    border-style: solid;
+    color: white;
+}
+
+.empezar:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.verplanes {
+    background-color: rgb(39, 105, 192);
+    border: 2px solid white;
+    color: white;
+}
+
+.verplanes:hover {
+    background-color: rgb(13, 86, 168);
+}
+
+.porque h2 {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.porque img {
+    width: 7em;
+    float: left;
+}
+
+.porque li {
+    margin: 5em 1em;
+    line-height: 2.5em;
+    width: 80vw;
+    list-style-type: none;
+}
+
+.porque li h3 {
+    font-weight: 700;
+    padding-left: 8em;
+}
+
+.porque li p {
+    padding-left: 9em;
+}
+
+.elige {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.beneficios {
+    margin: auto;
+    margin-top: 2em;
+    width: 60%;
+    border: 7px solid blueviolet;
+    border-radius: 1em;
+    list-style: none inside none;
+
+}
+
+.beneficios li:before {
+    list-style-type: none;
+    content: "✓";
+}
+
+.individual {
+    margin: auto;
+    margin-top: 2em;
+    width: 60%;
+    padding: 20px;
+    border: 7px solid pink;
+    border-radius: 1em;
+    text-align: left;
+    list-style: inside;
+    line-height: 2;
+}
+
+.mesindividual {
+    background-color: pink;
+    border-radius: 5px;
+    color: black;
+    width: fit-content;
+    display: inline-block;
+
+}
+
+.individual ul {
+    border-top: 1px solid white;
+    margin-top: 2em;
+    padding-top: 2em;
+}
+
+
+.individual button {
+    background-color: pink;
+}
+
+.duo {
+    margin: auto;
+    margin-top: 2em;
+    width: 60%;
+    padding: 20px;
+    border: 7px solid rgb(218, 179, 80);
+    border-radius: 1em;
+    text-align: left;
+    list-style: inside;
+    line-height: 2;
+
+}
+
+.mesduo {
+    background-color: rgb(218, 179, 80);
+    border-radius: 5px;
+    color: black;
+    width: fit-content;
+    display: inline-block;
+
+}
+
+.prepagoduo {
+    margin-left: 5px;
+    background-color: rgb(218, 179, 80);
+    border-radius: 5px;
+    color: black;
+    width: fit-content;
+    display: inline-block;
+}
+
+.duo ul {
+    border-top: 1px solid white;
+    margin-top: 2em;
+    padding-top: 2em;
+}
+
+.duo button {
+    background-color: rgb(218, 179, 80);
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.familiar {
+    margin: auto;
+    margin-top: 2em;
+    width: 60%;
+    padding: 20px;
+    list-style: inside;
+    border: 7px solid lightskyblue;
+    border-radius: 1em;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.mesfamiliar {
+    background-color: lightskyblue;
+    border-radius: 5px;
+    color: black;
+    width: fit-content;
+    display: inline-block;
+
+}
+
+.familiar ul {
+    border-top: 1px solid white;
+    margin-top: 2em;
+    padding-top: 2em;
+}
+
+.familiar button {
+    background-color: lightskyblue;
+}
+
+.universitario {
+    margin: auto;
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 0;
+    margin-top: 2em;
+    list-style: inside;
+    text-align: left;
+    border: 7px solid rgb(153, 168, 182);
+    border-radius: 1em;
+    color: dark;
+    line-height: 2;
+}
+
+.mesuniversitario {
+    background-color: rgb(153, 168, 182);
+    border-radius: 5px;
+    color: black;
+    width: fit-content;
+    display: inline-block;
+}
+
+.universitario ul {
+    border-top: 1px solid white;
+    margin-top: 2em;
+    padding-top: 2em;
+}
+
+.universitario button {
+    background-color: rgb(153, 168, 182);
+}
+
+footer {
+    background-color: black;
+    color: gray;
+    padding: 4em;
+}
+
+footer h2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    line-height: 3;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 4em;
+}
+
+footer ul a {
+    color: white;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: rgb(62, 160, 100);
+}
+
+.intern {
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+}
+
+.intern a {
+    color: gray;
+    text-decoration: none;
+    padding: 1em
+}
+
+.intern a:hover {
+    color: rgb(62, 160, 100);
+}

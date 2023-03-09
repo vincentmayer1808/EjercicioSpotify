@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10vw;
+    color: white;
+}
+
+header img {
+    width: 200px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a:hover {
+    color: rgb(62, 160, 100);
+}
+
+header button {
+    display: none;
+}
+
+section.gratis {
+    background-color: #0d72ea;
+    color: white;
+    padding: 10px 10vw;
+    line-height: 4em;
+}
+
+.gratis h1 {
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-top: 1em;
+}
+
+.gratis p.cancela {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+div .button {
+    display: flex;
+}
+
+.gratis button {
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 2em;
+    font-weight: 700;
+}
+
+.empezar {
+    background-color: rgb(34, 31, 31);
+    border-color: rgb(34, 31, 31);
+    border-style: solid;
+    color: white;
+}
+
+.empezar:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.verplanes {
+    background-color: #0d72ea;
+    border: 2px solid white;
+    color: white;
+}
+
+.verplanes:hover {
+    background-color: #055cc5
+}
+
+.condicion {
+    font-size: 0.8em;
+}
+
+.condicion a {
+    color: white;
+}
+
+section.porque {
+    margin: 2em 10vw;
+}
+
+.porque h2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+section.porque div.plus {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 10em;
+}
+
+div.plus2 {
+    padding: 1em;
+    text-align: center;
+
+}
+
+.porque img {
+    width: 8em;
+    margin-bottom: 1em;
+}
+
+div.plus h3 {
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+
+.card {
+
+    background-color: #efefefbb;
+    padding: 5em 5em;
+}
+
+.title {
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 3em;
+}
+
+.title h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 2;
+}
+
+article {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    padding: 1em 1.5em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    line-height: 1.5;
+}
+
+article .header span:first-child {
+    display: inline-block;
+    background-color: #0d72ea;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.outline {
+    display: inline-block;
+    background-color: white;
+    color: #0d72ea;
+    border: 1px solid #0d72ea;
+    padding: 5px 8px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+hr {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.features div {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+
+}
+
+.features div button {
+    border: 0 none white;
+    background-color: white;
+}
+
+.footer button {
+    width: 100%;
+    height: 3em;
+    border-radius: 2em;
+    background-color: rgba(0, 0, 0, 0.87);
+    border: 0 none white;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.footer button:hover {
+    background-color: black;
+    border: 5px solid black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer {
+    color: gray;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.footer a {
+    color: gray;
+}
+
+.comenzar {
+    background-color: black;
+    width: 100%;
+    height: 3em;
+    border-radius: 2em;
+    border: 0 none white;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.comenzar:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: gray;
+}
+
+footer h2 {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+footer img {
+    width: 8em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(62, 160, 100);
+}
+
+footer section.links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5em 5em;
+
+}
+
+footer section.links div.left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+}
+
+footer section.links div.left div {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+footer section.pais {
+    display: flex;
+    padding: 1em 5em;
+    justify-content: flex-end;
+}
+
+footer section.pais a {
+    color: gray;
+    font-size: 12px;
+}
+footer section.pais a:hover{
+    color:rgb(62, 160, 100) ;
+}
+
+footer section.links div.redes {
+    display: flex;
+    gap: 2em;
+}
+
+footer section.intern {
+    padding: 1em 5em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer section.intern a {
+    color: gray;
+    font-size: 12px;
+}
+
+footer section.intern a:hover {
+    color: rgb(62, 160, 100);
+}
+
+footer section.intern div:first-child {
+    display: flex;
+    gap: 2em
+}
+footer span{
+    color: gray;
+    font-size: 12px;
+}
+
+@media (max-width:1300px) {
+    nav {
+        display: none;
+    }
+
+    header button {
+        display: block;
+    }
+}
+
+@media (max-width:900px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .gratis h1 {
+        font-size: 1.5em;
+    }
+
+    .gratis p.cancela {
+        font-size: 1em;
+    }
+
+    .gratis button {
+        width: 100%;
+    }
+
+    section.porque div.plus {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer section.links div.left {
+        flex-direction: column;
+    }
+
+    footer section.links {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:700px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    section.porque div.plus {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+
+}
